@@ -241,16 +241,22 @@
         </div>
         <div id="contact" class="contact-background d-flex justify-content-center">
           <div class="contact-form">
-            <div class="d-flex flex-column align-items-center">
+            <div class="">
               <h2 class="contact-form-heading">Contact me</h2>
               <p class="contact-form-details">
                 If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it.
               </p>
               <div class="form">
                 <form method="post">
-                  <input class="rounded-lg form-control" type="text" name="name" placeholder="Please enter your name...." required> <br />
-                  <input class="form-control rounded-lg" type="email" name="email" placeholder="Please enter your email...." required> <br />
-                  <textarea class="form-control rounded-lg" name="message" cols="30" rows="10" placeholder="Please enter your message.... " required></textarea> <br />
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="name" placeholder="Your name">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" placeholder="name@example.com">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="w-100 rounded border-0 message" name="message">
+                  </div>
                   <input class="form-submit" type="submit" value="Get in touch">
                 </form>
               </div>

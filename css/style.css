@@ -511,8 +511,6 @@ table {
     font-size: 18px;
 }
 
-.form {
-    display: flex;
-    justify-content: center;
-    width: 300px;
+.message {
+    height: 300px;
 }
