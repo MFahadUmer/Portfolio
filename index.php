@@ -1,3 +1,22 @@
+<?php
+if(isset($_POST['send_email'])){
+    $to = "eng.fahadumer@gmail.com"; // this is your Email address
+    $name = $_POST['name'];
+    $from = $_POST['email']; // this is the sender's Email address
+    $subject = "Form submission";
+    $subject2 = "Copy of your form submission";
+    $message = $name . " " . " wrote the following:" . "\n\n" . $_POST['message'];
+    $message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['message'];
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    // You cannot use header and echo together. It's one or the other.
+    }
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -87,7 +106,7 @@
         <div class="portfolio-section rounded p-4">
           <div class="portfolio-image rounded bg-warning d-flex align-items-center justify-content-center ">
             <div class="portfolio-image-size rounded d-flex align-items-center justify-content-center">
-              <img class="w-100 rounded" src="images/freedom.png" alt="">
+              <img class="w-100 h-100 rounded" src="images/freedom.png" alt="">
             </div>
           </div>
           <div class="portfolio-detail">
@@ -138,7 +157,7 @@
           </div>
           <div class="portfolio-image rounded bg-info d-flex align-items-center justify-content-center ">
             <div class="portfolio-image-size rounded d-flex align-items-center justify-content-center">
-              <img class="w-100 rounded" src="images/toys.png" alt="">
+              <img class="w-100 h-100 rounded" src="images/toys.png" alt="">
             </div>
           </div>
         </div>
@@ -247,7 +266,7 @@
                 If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it.
               </p>
               <div class="form">
-                <form method="post">
+                <form action="index.php" method="post">
                   <div class="form-group">
                     <input type="text" class="form-control" name="name" placeholder="Your name">
                   </div>
@@ -257,7 +276,7 @@
                   <div class="form-group">
                     <input type="text" class="w-100 rounded border-0 message" name="message">
                   </div>
-                  <input class="form-submit" type="submit" value="Get in touch">
+                  <input class="form-submit" type="submit" name="send_email" value="Get in touch">
                 </form>
               </div>
             </div>
