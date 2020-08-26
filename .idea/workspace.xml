@@ -46,6 +46,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Stylus" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -71,7 +72,8 @@
       <workItem from="1598070190480" duration="37714000" />
       <workItem from="1598232739379" duration="2064000" />
       <workItem from="1598332239638" duration="5699000" />
-      <workItem from="1598341602939" duration="17136000" />
+      <workItem from="1598341602939" duration="17256000" />
+      <workItem from="1598413038697" duration="462000" />
     </task>
     <servers />
   </component>
