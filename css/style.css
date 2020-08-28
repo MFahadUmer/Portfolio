@@ -744,3 +744,10 @@ table {
         font-size: 18px;
     }
 }
+
+@media only screen and (min-width:1024px){
+    .introduction {
+        margin-top: 30vh;
+        width: 40vw;
+    }
+}

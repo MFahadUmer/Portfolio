@@ -252,7 +252,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
           <a data-toggle="collapse" data-target="#frameworks" href="#"><div class="collapse-title border-bottom mx-2 px-4 pb-3 mt-4">Frameworks <span class="float-right"> > </span></div></a>
           <div id="frameworks" class="collapse">
-            <div class="skills-grid p-1 pt-3">
+            <div class="skills-grid-2 p-1 pt-3">
               <div class="language d-flex flex-column rounded align-items-center justify-content-center">
                 <div class="language-icon rounded-circle bg-primary"><img src="https://img.icons8.com/color/30/000000/bootstrap.png"/></i></div>
                 <p class="langugae-name">Bootstrap</p>
@@ -269,10 +269,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="language-icon rounded-circle bg-danger"><img src="https://img.icons8.com/wired/30/000000/api-settings.png"/></div>
                 <p class="langugae-name">REST</p>
               </div>
-              <div class="language d-flex flex-column rounded align-items-center justify-content-center">
-                <div class="language-icon rounded-circle bg-info"><img src="https://img.icons8.com/color/30/000000/nodejs.png"/></div>
-                <p class="langugae-name">NodeJs</p>
-              </div>
+<!--              <div class="language d-flex flex-column rounded align-items-center justify-content-center">-->
+<!--                <div class="language-icon rounded-circle bg-info"><img src="https://img.icons8.com/color/30/000000/nodejs.png"/></div>-->
+<!--                <p class="langugae-name">NodeJs</p>-->
+<!--              </div>-->
             </div>
           </div>
           <a data-toggle="collapse" data-target="#skills-collapse" href="#"><div class="collapse-title border-bottom mx-2 px-4 pb-3 mt-4">Skills <span class="float-right"> > </span></div></a>
