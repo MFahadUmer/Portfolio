@@ -26,9 +26,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+  <script src="script/script.js"></script>
 </head>
 <body>
+    <!-- popup box for message  -->
+    <div id="wrapperPopUpBox" class="wrapperPopUpBox">
+    <div class="popUpBox">
+      <p class="popUpBoxText">THANK YOU FOR YOUR MESSAGE! <br /> WE WILL GET BACK TO YOU AS SOON AS POSSIBLE.</p>
+      <button id="popUpBoxCloseButton" class="popUpBoxCloseButton">Okay!</button>
+    </div>
+    </div>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THJR7NT"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -40,7 +47,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="navbar d-flex">
         <div>
           <div >
-            <a class="home-link blue-color" href="#home">MUHAMMAD</a>
+            <a class="home-link text-dark" href="#home">MUHAMMAD</a>
           </div>
         </div>
         <div>
@@ -97,7 +104,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="introduction-about">
             I'm a software developer! I can help you build a product, feature or website look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.
           </p>
-          <p class="introduction-contact">LET'S CONTACT</p>
+          <p class="introduction-contact text-dark">LET'S CONTACT</p>
           <p>
             <a class="introduction-links" href="https://twitter.com/engfahadumer" target="_blank"><i class="fab fa-twitter"></i></a>
             <a class="introduction-links pl-2" href="https://www.linkedin.com/in/muhammad-fahad-umer/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -116,28 +123,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="portfolio-section rounded">
         <div class="rounded bg-warning d-flex align-items-center justify-content-center ">
           <div class="portfolio-image-size rounded d-flex align-items-center justify-content-center">
-            <img class="w-100 h-100 p-2 bg-info rounded" src="images/freedom.png" alt="">
+            <img class="w-100 h-100 p-2 bg-info rounded" src="images/toys.png" alt="">
           </div>
         </div>
         <div class="portfolio-detail p-2">
-          <h2 class="portfolio-project-name">Twitter Redesign (Freedom)</h2>
+          <h2 class="portfolio-project-name">Online Toy Store</h2>
           <div class="d-flex">
             <p class="portfolio-project-company d-flex align-items-center">Microverse <span class="portfolio-project-stage pl-4 d-flex align-items-center"><i class="fas fa-circle"></i> <span class="pl-1">Full Stack</span></span>
               <span class="portfolio-project-stage pl-2 d-flex align-items-center"><i class="fas fa-circle"></i> <span class="pl-1"> 2020</span></span>
             </p>
           </div>
           <p class="portfolio-project-details">
-            This project was built as my capstone for the ROR curriculum of the Microverse software development school. It is a fullstack project built using the rails framework. Basically a user can sign up on the platform...
+            This is a project based on a Glance design. For this project, I've to create an online shop for the products of our own choice. So, I've created a website for Toys online shop.
           </p>
           <div class="d-flex align-items-center">
             <p class="portfolio-project-skills">HTML</p>
             <p class="portfolio-project-skills">CSS</p>
             <p class="portfolio-project-skills">BOOTSTRAP</p>
-            <p class="portfolio-project-skills">RUBY ON RAILS</p>
           </div>
           <div class="d-flex mb-2">
-            <a class="portfolio-project-preview-button rounded" href="https://ancient-refuge-09655.herokuapp.com/">Live Preview</a>
-            <a class="portfolio-project-preview-button rounded ml-4" href="https://github.com/MFahadUmer/freedom">Github</a>
+            <a class="portfolio-project-preview-button rounded" target="_blank" href="https://mfahadumer.github.io">Live Preview</a>
+            <a class="portfolio-project-preview-button rounded ml-4" target="_blank" href="https://github.com/MFahadUmer/Capstone-Project">Github</a>
           </div>
         </div>
       </div>
@@ -146,27 +152,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="portfolio-section rounded">
         <div class="portfolio-image rounded bg-info d-flex align-items-center justify-content-center ">
           <div class="portfolio-image-size rounded d-flex align-items-center justify-content-center">
-            <img class="w-100 h-100 p-2 bg-info rounded" src="images/toys.png" alt="">
+            <img class="w-100 h-100 p-2 bg-info rounded" src="images/todolist.PNG" alt="">
           </div>
         </div>
         <div class="portfolio-detail p-2">
-          <h2 class="portfolio-project-name">Online Toy Store</h2>
+          <h2 class="portfolio-project-name">Todolist</h2>
           <div class="d-flex">
-            <p class="portfolio-project-company d-flex align-items-center">Microverse <span class="portfolio-project-stage pl-4 d-flex align-items-center"><i class="fas fa-circle"></i> <span class="pl-1">Front End</span></span>
+            <p class="portfolio-project-company d-flex align-items-center">Microverse <span class="portfolio-project-stage pl-4 d-flex align-items-center"><i class="fas fa-circle"></i> <span class="pl-1">Full-Stack</span></span>
               <span class="portfolio-project-stage pl-2 d-flex align-items-center"><i class="fas fa-circle"></i> <span class="pl-1"> 2020</span></span>
             </p>
           </div>
           <p class="portfolio-project-details">
-            Capstone Project. This is a project based on a Glance design . For this project ive to create an online shop for the products of our own choice. So, I've created a website for Toys online shop.
+            The project was built using webpack to bundle javascript files into single file, the main js file. Files in the source folder represent individual module that symbolize a particular functionality...
           </p>
           <div class="d-flex">
             <p class="portfolio-project-skills">HTML</p>
             <p class="portfolio-project-skills">CSS</p>
-            <p class="portfolio-project-skills">BOOTSTRAP</p>
+            <p class="portfolio-project-skills">JAVASCRIPT</p>
+            <p class="portfolio-project-skills">WEBPACK</p>
           </div>
           <div class="d-flex mb-2">
-            <a class="portfolio-project-preview-button rounded" href="https://mfahadumer.github.io">Live Preview</a>
-            <a class="portfolio-project-preview-button rounded ml-4" href="https://github.com/MFahadUmer/Capstone-Project">Github</a>
+            <a class="portfolio-project-preview-button rounded" target="_blank" href="https://rawcdn.githack.com/MFahadUmer/todolist/e4ce07791e67d47f52a7191baaaa7d49871e8997/dist/index.html">Live Preview</a>
+            <a class="portfolio-project-preview-button rounded ml-4" target="_blank" href="https://github.com/MFahadUmer/todolist">Github</a>
           </div>
         </div>
       </div>
@@ -174,14 +181,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="d-none d-md-flex portfolio-grid w-100">
       <div class="portfolio-section rounded">
         <div class="portfolio-detail p-2">
-          <h2 class="portfolio-project-name">Online Toy Store</h2>
+          <h2 class="portfolio-project-name">Todolist</h2>
           <div class="d-flex">
-            <p class="portfolio-project-company d-flex align-items-center">Microverse <span class="portfolio-project-stage pl-4 d-flex align-items-center"><i class="fas fa-circle"></i> <span class="pl-1">Front End</span></span>
+            <p class="portfolio-project-company d-flex align-items-center">Microverse <span class="portfolio-project-stage pl-4 d-flex align-items-center"><i class="fas fa-circle"></i> <span class="pl-1">Full-Stack</span></span>
               <span class="portfolio-project-stage pl-2 d-flex align-items-center"><i class="fas fa-circle"></i> <span class="pl-1"> 2020</span></span>
             </p>
           </div>
           <p class="portfolio-project-details">
-            Capstone Project. This is a project based on a Glance design . For this project ive to create an online shop for the products of our own choice. So, I've created a website for Toys online shop.
+            The project was built using webpack to bundle javascript files into single file, the main js file. Files in the source folder represent individual module that symbolize a particular functionality...
           </p>
           <div class="d-flex">
             <p class="portfolio-project-skills">HTML</p>
@@ -189,17 +196,109 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <p class="portfolio-project-skills">BOOTSTRAP</p>
           </div>
           <div class="d-flex mb-2">
-            <a class="portfolio-project-preview-button rounded" href="https://mfahadumer.github.io">Live Preview</a>
-            <a class="portfolio-project-preview-button rounded ml-4" href="https://github.com/MFahadUmer/Capstone-Project">Github</a>
+            <a class="portfolio-project-preview-button rounded" target="_blank" href="https://rawcdn.githack.com/MFahadUmer/todolist/e4ce07791e67d47f52a7191baaaa7d49871e8997/dist/index.html">Live Preview</a>
+            <a class="portfolio-project-preview-button rounded ml-4" target="_blank" href="https://github.com/MFahadUmer/todolist">Github</a>
           </div>
         </div>
         <div class="portfolio-image rounded bg-info d-flex align-items-center justify-content-center ">
           <div class="portfolio-image-size rounded d-flex align-items-center justify-content-center">
-            <img class="w-100 h-100 p-2 bg-info rounded" src="images/toys.png" alt="">
+            <img class="w-100 h-100 p-2 bg-info rounded" src="images/todolist.PNG" alt="">
           </div>
         </div>
       </div>
     </div>
+    <div class="portfolio-grid w-100">
+      <div class="portfolio-section rounded">
+        <div class="rounded bg-warning d-flex align-items-center justify-content-center ">
+          <div class="portfolio-image-size rounded d-flex align-items-center justify-content-center">
+            <img class="w-100 h-100 p-2 bg-info rounded" src="images/library.PNG" alt="">
+          </div>
+        </div>
+        <div class="portfolio-detail p-2">
+          <h2 class="portfolio-project-name">Library</h2>
+          <div class="d-flex">
+            <p class="portfolio-project-company d-flex align-items-center">Microverse <span class="portfolio-project-stage pl-4 d-flex align-items-center"><i class="fas fa-circle"></i> <span class="pl-1">Full-Stack</span></span>
+              <span class="portfolio-project-stage pl-2 d-flex align-items-center"><i class="fas fa-circle"></i> <span class="pl-1"> 2020</span></span>
+            </p>
+          </div>
+          <p class="portfolio-project-details">
+            Library is a small app that allows addition, deletion and changes to read status of books.
+          </p>
+          <div class="d-flex align-items-center">
+            <p class="portfolio-project-skills">HTML</p>
+            <p class="portfolio-project-skills">CSS</p>
+            <p class="portfolio-project-skills">JAVASCRIPT</p>
+            <p class="portfolio-project-skills">WEBPACK</p>
+          </div>
+          <div class="d-flex mb-2">
+            <a class="portfolio-project-preview-button rounded" href="https://raw.githack.com/MFahadUmer/Library/master/index.html">Live Preview</a>
+            <a class="portfolio-project-preview-button rounded ml-4" href="https://github.com/MFahadUmer/Library">Github</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-sm-flex d-md-none portfolio-grid w-100">
+      <div class="portfolio-section rounded">
+        <div class="portfolio-image rounded bg-info d-flex align-items-center justify-content-center ">
+          <div class="portfolio-image-size rounded d-flex align-items-center justify-content-center">
+            <img class="w-100 h-100 p-2 bg-info rounded" src="images/freedom.png" alt="">
+          </div>
+        </div>
+        <div class="portfolio-detail p-2">
+          <h2 class="portfolio-project-name">Freedom</h2>
+          <div class="d-flex">
+            <p class="portfolio-project-company d-flex align-items-center">Microverse <span class="portfolio-project-stage pl-4 d-flex align-items-center"><i class="fas fa-circle"></i> <span class="pl-1">Full-Stack</span></span>
+              <span class="portfolio-project-stage pl-2 d-flex align-items-center"><i class="fas fa-circle"></i> <span class="pl-1"> 2020</span></span>
+            </p>
+          </div>
+          <p class="portfolio-project-details">
+            This project was built as my capstone for the ROR curriculum of the Microverse software development school. It is a fullstack project built using the rails framework. Basically a user can sign up on the platform...
+          </p>
+          <div class="d-flex">
+            <p class="portfolio-project-skills">HTML</p>
+            <p class="portfolio-project-skills">CSS</p>
+            <p class="portfolio-project-skills">BOOTSTRAP</p>
+            <p class="portfolio-project-skills">RUBY ON RAILS</p>
+          </div>
+          <div class="d-flex mb-2">
+            <a class="portfolio-project-preview-button rounded" target="_blank" href="https://ancient-refuge-09655.herokuapp.com/">Live Preview</a>
+            <a class="portfolio-project-preview-button rounded ml-4" target="_blank" href="https://github.com/MFahadUmer/freedom">Github</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-none d-md-flex portfolio-grid w-100">
+      <div class="portfolio-section rounded">
+        <div class="portfolio-detail p-2">
+          <h2 class="portfolio-project-name">Freedom</h2>
+          <div class="d-flex">
+            <p class="portfolio-project-company d-flex align-items-center">Microverse <span class="portfolio-project-stage pl-4 d-flex align-items-center"><i class="fas fa-circle"></i> <span class="pl-1">Full-Stack</span></span>
+              <span class="portfolio-project-stage pl-2 d-flex align-items-center"><i class="fas fa-circle"></i> <span class="pl-1"> 2020</span></span>
+            </p>
+          </div>
+          <p class="portfolio-project-details">
+            This project was built as my capstone for the ROR curriculum of the Microverse software development school. It is a fullstack project built using the rails framework. Basically a user can sign up on the platform...
+          </p>
+          <div class="d-flex">
+            <p class="portfolio-project-skills">HTML</p>
+            <p class="portfolio-project-skills">CSS</p>
+            <p class="portfolio-project-skills">BOOTSTRAP</p>
+            <p class="portfolio-project-skills">RUBY ON RAILS</p>
+          </div>
+          <div class="d-flex mb-2">
+            <a class="portfolio-project-preview-button rounded" target="_blank" href="https://ancient-refuge-09655.herokuapp.com/">Live Preview</a>
+            <a class="portfolio-project-preview-button rounded ml-4" target="_blank" href="https://github.com/MFahadUmer/freedom">Github</a>
+          </div>
+        </div>
+        <div class="portfolio-image rounded bg-info d-flex align-items-center justify-content-center ">
+          <div class="portfolio-image-size rounded d-flex align-items-center justify-content-center">
+            <img class="w-100 h-100 p-2 bg-info rounded" src="images/freedom.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <!--    about and contact section-->
@@ -269,10 +368,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="language-icon rounded-circle bg-danger"><img src="https://img.icons8.com/wired/30/000000/api-settings.png"/></div>
                 <p class="langugae-name">REST</p>
               </div>
-<!--              <div class="language d-flex flex-column rounded align-items-center justify-content-center">-->
-<!--                <div class="language-icon rounded-circle bg-info"><img src="https://img.icons8.com/color/30/000000/nodejs.png"/></div>-->
-<!--                <p class="langugae-name">NodeJs</p>-->
-<!--              </div>-->
             </div>
           </div>
           <a data-toggle="collapse" data-target="#skills-collapse" href="#"><div class="collapse-title border-bottom mx-2 px-4 pb-3 mt-4">Skills <span class="float-right"> > </span></div></a>
@@ -306,18 +401,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it.
             </p>
             <div class="form">
-              <form action="index.php" method="post">
+              <form action='index.php' method="post">
                 <div class="form-group">
-                  <input type="text" class="form-control" name="name" placeholder="Your name">
+                  <input type="text" class="form-control" name="name" placeholder="Your name" required>
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control" name="email" placeholder="name@example.com">
+                  <input type="email" class="form-control" name="email" placeholder="name@example.com"required>
                 </div>
                 <div class="form-group">
-                  <textarea name="message" class="form-control" rows="10" placeholder="Your message"></textarea>
+                  <textarea name="message" class="form-control" rows="10" placeholder="Your message" required></textarea>
                   <!--                    <input type="text" class="w-100 rounded border-0 message" name="message">-->
                 </div>
-                <input class="form-submit" type="submit" name="send_email" value="Get in touch">
+                <input class="form-submit" type="submit" name="submit" value="Get in touch">
               </form>
             </div>
           </div>
@@ -334,3 +429,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
+<?php
+if (isset($_POST['submit'])){
+  $name = $_POST['name'];
+  $senderEmail = $_POST['email'];
+  $subject = 'Message from fahadumer.net';
+  $message = $_POST['message'];
+  $mailTo = "eng.fahadumer@gmail.com";
+  $headers = "From: ".$senderEmail;
+  $txt = "You have received an e-mail from " .$name. ".\n\n".$message;
+  mail($mailTo, $subject, $message, $headers);
+  echo "<script>popUpBox();</script>";
+}
+?>
