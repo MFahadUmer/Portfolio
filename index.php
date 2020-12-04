@@ -429,16 +429,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
-<!--<?php-->
-<!--if (isset($_POST['submit'])){-->
-<!--  $name = $_POST['name'];-->
-<!--  $senderEmail = $_POST['email'];-->
-<!--  $subject = 'Message from fahadumer.net';-->
-<!--  $message = $_POST['message'];-->
-<!--  $mailTo = "eng.fahadumer@gmail.com";-->
-<!--  $headers = "From: ".$senderEmail;-->
-<!--  $txt = "You have received an e-mail from " .$name. ".\n\n".$message;-->
-<!--  mail($mailTo, $subject, $message, $headers);-->
-<!--  echo "<script>popUpBox();</script>";-->
-<!--}-->
-<!--?>-->
+<?php
+if (isset($_POST['submit'])){
+  $name = $_POST['name'];
+  $senderEmail = $_POST['email'];
+  $subject = 'Message from fahadumer.net';
+  $message = $_POST['message'];
+  $mailTo = "eng.fahadumer@gmail.com";
+  $headers = "From: ".$senderEmail;
+  $txt = "You have received an e-mail from " .$name. ".\n\n".$message;
+  mail($mailTo, $subject, $message, $headers);
+  echo "<script>popUpBox();</script>";
+}
+?>
