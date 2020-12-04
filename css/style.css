@@ -55,6 +55,10 @@ table {
     color: #344563;
 }
 
+.nav-links {
+    color: #091E42;
+}
+
 .blue-color {
     color: #6070FF;
 }
@@ -297,7 +301,7 @@ table {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: blsck;
+    color: black;
 }
 
 .portfolio-project-preview-button {
@@ -308,7 +312,7 @@ table {
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #396DF2;
+    color: black;
 }
 
 .portfolio-project-preview-button:hover {
@@ -410,10 +414,10 @@ table {
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #396DF2;
+    color: black;
     border: #396DF2 1px solid;
     padding: 15px;
-}
+}396DF2
 
 .resume:hover {
     text-decoration: none;
